@@ -1,0 +1,14 @@
+	.category-group a:hover .category-img:before{
+			content: "";
+			border-left: 4px solid #ff6b4b;
+			display: block;
+			position: relative;
+			right: 10px;
+			top: -16px;
+			height: 50px;
+			-webkit-transition: all 0.2s ease-out;
+			 -moz-transition: all 0.2s ease-out;
+			 -ms-transition: all 0.2s ease-out;
+			 -o-transition: all 0.2s ease-out;
+			 transition: all 0.2s ease-out;
+		}

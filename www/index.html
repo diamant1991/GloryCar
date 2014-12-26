@@ -31,14 +31,14 @@
       </div>
         <div class="category-group">
         <li>
-          <a href="javascript:void(0)">
+          <a href="javascript:void(0)" class="height-link">
            <div class="category-img first"></div>
-           <span class="text-nav-menu">Уже покупали у нас?</span></a>
+           <span class="text-nav-menu  marg-text">Уже покупали у нас?</span></a>
         </li>
         <li>
-          <a href="javascript:void(0)">
+          <a href="javascript:void(0)" class="height-link">
          <div class="category-img second"></div>
-          <span class="text-nav-menu redcolor">Корзина пуста</span>
+          <span class="text-nav-menu redcolor  marg-text">Корзина пуста</span>
           </a>
         </li>
         </div>
@@ -48,9 +48,9 @@
         <ul>  
         <div class="category-group marg-group">
         <li>
-          <a href="javascript:void(0)">
+          <a href="javascript:void(0)" class="height-link-2">
           <div class="category-img third"></div>
-           <span class="text-nav-menu">Щетки стеклоочистителя</span></a>
+           <span class="text-nav-menu marg-text">Щетки стеклоочистителя</span></a>
         </li>
         <li>
           <a href="javascript:void(0)">
@@ -78,9 +78,9 @@
           <span class="text-nav-menu">Все для обслуживания</span></a>
         </li>
          <li>
-          <a href="javascript:void(0)">
+          <a href="javascript:void(0)" class="height-link-2">
           <div class="category-img ninth"></div>
-          <span class="text-nav-menu">Все для путешествий</span></a>
+          <span class="text-nav-menu marg-text">Все для путешествий</span></a>
         </li>
         </div>
         </ul>
@@ -89,17 +89,17 @@
         <ul>
         <div class="category-group marg-group">
          <li>
-          <a href="javascript:void(0)">
+          <a href="javascript:void(0)" class="height-link-2">
           <div class="category-img tenth"></div>
-          <span class="text-nav-menu">О магазине</span></a>
+          <span class="text-nav-menu  marg-text">О магазине</span></a>
         </li>
          <li>
-          <a href="javascript:void(0)">
+          <a href="javascript:void(0)" class="height-link-2">
           <div class="category-img eleventh"></div>
           <span class="text-nav-menu">Доставка и оплата</span></a>
         </li>
          <li>
-          <a href="javascript:void(0)">
+          <a href="javascript:void(0)" class="height-link-2">
            <div class="category-img twelfth"></div>
           <span class="text-nav-menu">Контакты</span></a>
         </li>
@@ -117,22 +117,25 @@
                 <button type="submit"></button>
               </form>
             </div>
-            <div class="contacts-xs col-xs-6 col-sm-3 col-md-3">
+            <div class="contacts-xs col-xs-6 col-sm-4 col-md-4">
+              <div class="contacts-center">
               <div class="contacts">
-                <div class="img-contacts"></div>
                 <div class="text-contacts">
                   <p>+7 495 638-11-35</p>
                   <p>ежедневно с 9 до 21</p>
                 </div>
               </div>
+              </div>
+
             </div>
-            <div class="col-xs-12 col-sm-5 col-md-5">
-              <div class="guide">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <a href="#" class="link-guide">
                 <div class="icon-guide"></div>
                 <div class="text-guide">
                   Руководства по уходу и обслуживанию
                 </div>
-              </div>
+               </a>
+              
             </div>
         </div><!-- end top panel-->
 
@@ -207,16 +210,34 @@
         </div> <!-- end info-content-->
         
         <div class="delivery-info"><!-- delivery-->
-          <div class=" col-sm-6 col-md-3">
-            <div class="delivery-sprite thirteenth"></div>
-            <h4>доставка на завтра</h4>
-            <p>Если Вы сделаете заказ сегодня до 19:00, завтра он будет у Вас. Сделайте заказ прямо сейчас!</p>
-            <div class="timer">
-              <p>осталось на раздумья</p>
-              <p>Таймер</p>
-            </div>
-          </div>
           <div class="col-sm-6 col-md-3">
+            <div class="delivery-sprite thirteenth"></div>
+            <h4 class="marg-left">доставка на завтра</h4>
+            <p>Если Вы сделаете заказ сегодня до 19:00, завтра он будет у Вас. Сделайте заказ прямо сейчас!</p>
+            
+              <div class="timer">
+                          <div class="text">Осталось на раздумья:</div>
+                            <div class="timer_box">
+                              <div id="counter"></div>
+                              <div class="box_num">
+                                  <div class="top">&nbsp;</div>
+                                    <div class="bot">часа</div>
+                                </div>
+                              <div class="point">:</div>
+                              <div class="box_num">
+                                  <div class="top">&nbsp;</div>
+                                    <div class="bot">минут</div>
+                                </div>
+                              <div class="point">:</div>
+                              <div class="box_num">
+                                  <div class="top">&nbsp;</div>
+                                    <div class="bot">секунд</div>
+                                </div>
+                            </div>
+               </div><!--timer-->
+            
+          </div>
+          <div class=" del-padd col-sm-6 col-md-3">
             <div class="delivery-sprite fourteenth"></div>
             <h4>Любой способ оплаты</h4>
             <p>Оплатите заказ наличными курьеру или безналичными платежами.</p>
@@ -243,21 +264,21 @@
         <div class="top-sales"> <!-- top sales-->
           <h2>Хиты продаж</h2>
           <div class="padd-top-sales">
-            <div class="col-sm-2 col-md-2 top-sales-container">
+            <div class="top-sales-container">
                 <figure>
                   <img src="images/sales-1.jpg" class="top-sales-img" alt="">
                 </figure>
                 <a href="#" class="figcaption">Bosch Aerotwin AR 728 S</a>
                 <p class="after-caption">Комплект стеклоочистителей</p>
             </div>
-             <div class="col-sm-2 col-md-2 top-sales-container">
+             <div class="top-sales-container">
                 <figure>
                   <img src="images/sales-2.jpg" class="top-sales-img" alt="">
                 </figure>
                 <a href="#" class="figcaption">Траки антипробусковочные Autostandart (60 х 20 см)</a>
                 
             </div>
-             <div class="col-sm-2 col-md-2 top-sales-container">
+             <div class="top-sales-container">
                 <figure>
                   <img src="images/sales-3.jpg" class="top-sales-img" alt="">
                 </figure>
@@ -265,7 +286,7 @@
                 <p class="after-caption">Очиститель колесных дисков</p>
                 
             </div>
-             <div class="col-sm-2 col-md-2 top-sales-container">
+             <div class="top-sales-container">
                 <figure>
                   <img src="images/sales-4.jpg" class="top-sales-img" alt="">
                 </figure>
@@ -273,7 +294,7 @@
                 <p class="after-caption">Комплект стеклоочистителей</p>
                
             </div>
-             <div class="col-sm-2 col-md-2 top-sales-container">
+             <div class="top-sales-container">
                 <figure>
                   <img src="images/sales-5.jpg" class="top-sales-img" alt="">
                 </figure>
@@ -281,7 +302,7 @@
                 <p class="after-caption">Гель для придания блеска покрышкам</p>
                 
             </div>
-             <div class="col-sm-2 col-md-2 top-sales-container">
+             <div class="top-sales-container">
                 <figure>
                   <img src="images/sales-6.jpg" class="top-sales-img" alt="">
                 </figure>
@@ -291,32 +312,7 @@
             </div>
           </div>
           
-           <div class="purchase">
-              <div class="col-sm-2 col-md-2">
-                    <p class="price">1 250 P</p>
-                    <a href="#" class="buy-href">В корзину</a>
-              </div>
-              <div class="col-sm-2 col-md-2">
-                    <p class="price">1 250 P</p>
-                    <a href="#" class="buy-href">В корзину</a>
-              </div>
-              <div class="col-sm-2 col-md-2">
-                    <p class="price">1 250 P</p>
-                    <a href="#" class="buy-href">В корзину</a>   
-              </div>
-              <div class="col-sm-2 col-md-2">
-                    <p class="price">1 250 P</p>
-                    <a href="#" class="buy-href">В корзину</a>
-              </div>
-              <div class="col-sm-2 col-md-2">
-                    <p class="price">1 250 P</p>
-                    <a href="#" class="buy-href">В корзину</a>
-              </div>
-              <div class="padd-price co-sm-2 col-md-2">
-                    <p class="price">1 250 P</p>
-                    <a href="#" class="buy-href">В корзину</a>
-              </div>
-          </div>
+           
         </div> <!-- end top sales-->
         
         <footer><!-- footer-->
@@ -446,6 +442,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/jquery.countdown.js"></script>
     
     
   </body>

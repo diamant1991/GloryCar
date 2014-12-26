@@ -1208,7 +1208,7 @@ a.bg-danger:hover {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 ul ul,
 ol ul,
@@ -5501,13 +5501,12 @@ button.close {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 2%;
   width: 70px;
   height: 70px;
   font-size: 20px;
   color: #fff;
   text-align: center;
-  top: 40%;
+  top: 46%;
   z-index: 100;
 
 }
@@ -5560,21 +5559,21 @@ button.close {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 1px;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
   text-indent: -999px;
   cursor: pointer;
   background-color: #c9d7e7;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #c9d7e7;
+  border: 2px solid #c9d7e7;
   border-radius: 10px;
 }
 .carousel-indicators .active {
-  width: 12px;
-  height: 12px;
-  margin: 0;
+  width: 14px;
+  height: 14px;
   background-color: #c9d7e7;
+
 }
 .carousel-caption {
   position: relative;
