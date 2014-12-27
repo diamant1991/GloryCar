@@ -5512,7 +5512,7 @@ button.close {
 }
 
 .carousel-control.right {
-  right: 2%;
+  right: 30px;
   left: auto;
 }
 

@@ -16,5 +16,11 @@
       $('#counter').countdown({
     timestamp : (new Date(2014, 12, 31)).getTime() + 01*01*01*60*1000
       });
+
+      $("#phone").mask("+7 (999) 999-9999");
+      $("#phone2").mask("+7 (999) 999-9999");
+
+     
+      
       
     });
